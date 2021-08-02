@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Project02</string>
+    <string name="dark_amazon">Dark Amazon</string>
+    <string name="login">Login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="admin">Admin</string>
+    <string name="search">Search</string>
+    <string name="order_history">Order History</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="buy">BUY</string>
+    <string name="search_for_desired_items">Search for Desired Items</string>
+    <string name="back_arrow"><![CDATA[<--]]></string>
+    <string name="your_order_history_is_empty">Your order history is empty</string>
+    <string name="no_search_items">No search items</string>
+    <string name="please_select_an_order_to_cancel">Please select an order to cancel</string>
+    <string name="welcome_admin">Welcome Admin</string>
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
+    <string name="add_item">Add Item</string>
+    <string name="remove_item">Remove item</string>
+    <string name="view_existing_users">View Existing users</string>
+    <string name="view_existing_items">View Existing Items</string>
+
+</resources>

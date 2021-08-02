@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111"
+    tools:context=".AdminActivity">
+
+    <Button
+        android:id="@+id/Admin_View_exiting_users_button"
+        android:layout_width="238dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/eater"
+        android:text="@string/view_existing_users"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Admin_remove_item_button" />
+
+    <Button
+        android:id="@+id/Admin_add_item_button"
+        android:layout_width="238dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/eater"
+        android:text="@string/add_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Admin_textView2" />
+
+    <Button
+        android:id="@+id/Admin_View_exiting_items_button"
+        android:layout_width="238dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/eater"
+        android:text="@string/view_existing_items"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Admin_add_item_button" />
+
+    <TextView
+        android:id="@+id/Admin_textView1"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/eater"
+        android:text="@string/welcome_admin"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Admin_textView2"
+        android:layout_width="224dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/eater"
+        android:text="@string/what_would_you_like_to_do"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Admin_textView1" />
+
+    <Button
+        android:id="@+id/Admin_remove_item_button"
+        android:layout_width="238dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/eater"
+        android:text="@string/remove_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Admin_View_exiting_items_button" />
+
+    <Button
+        android:id="@+id/Admin_back_button"
+        android:layout_width="82dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/eater"
+        android:text="@string/back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
